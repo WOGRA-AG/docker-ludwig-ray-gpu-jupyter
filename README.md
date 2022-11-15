@@ -1,6 +1,5 @@
-# ludwig-gpu
+# docker-ludwig-ray-gpu-jupyterhub
 
-A lightweight Ludwig image with gpu support. 
-
-The Dockerfile is inspired by the tensorflow  [gpu.Dockerfile](https://github.com/tensorflow/tensorflow/blob/master/tensorflow/tools/dockerfiles/dockerfiles/gpu.Dockerfile).
-
+This is basically a wrapper image to make the official
+[ludwigai/ludwig-ray-gpu](https://hub.docker.com/r/ludwigai/ludwig-ray-gpu) 
+image available for jupyterhub.
